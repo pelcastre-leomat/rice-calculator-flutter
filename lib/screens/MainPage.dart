@@ -64,7 +64,9 @@ class _MainPageState extends State<MainPage> {
                   InputWidget(
                     onPressedDec: (){
                       setState(() {
-                        rice -=0.5;
+                        if(rice>0) {
+                          rice -= 0.5;
+                        }
                         water = calculateRatio(rice);
                       });
                     },

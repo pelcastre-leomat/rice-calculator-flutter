@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../CircularButton.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
 import '../constants.dart';
+import 'package:flutter/services.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key,});
@@ -12,6 +12,11 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  @override
+  void initState() {
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
+    super.initState();
+  }
   double rice = 0;
   double water = 0;
 

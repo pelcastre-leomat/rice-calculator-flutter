@@ -1,16 +1,11 @@
-# rice_time
+![Just_Rice](https://github.com/pelcastre-leomat/rice-calculator-flutter/assets/61279897/f598a807-70f1-496d-8581-1db40e00b97b)
 
-A simple rice to water ratio calculator
+# Just Rice
+A no frills, ultra minimalist app that does one thing and one thing only, gives you the amount of water needed to prepare a specified amount of rice (in dl).
 
-## Getting Started
+# To-do
+- Add a button long press function for quicker increase and decrease of rice amount
+- Add an automatic light and dark mode
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Suggestions
+Feel free to suggest features or fixes by creating an issue! 
